@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teerth Saarthi - Religious Places Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Teerth Saarthi</h1>
+            <p>Your divine companion for exploring sacred places across the world</p>
+            <div id="server-status" class="server-status">Connecting to server...</div>
+        </header>
+        
+        <div class="chatbot-container">
+            <div class="chat-header">
+                <div class="chat-avatar">
+                    <i class="fas fa-om"></i>
+                </div>
+                <div class="chat-title">
+                    <h2>Sacred Journey Assistant</h2>
+                    <p>Explore temples, churches, mosques and more</p>
+                </div>
+            </div>
+            
+            <div class="chat-body" id="chat-body">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Namaste! Welcome to Teerth Saarthi. I can help you discover sacred places around the world. Ask me about:
+                        <ul>
+                            <li>Historical significance of temples, churches, or mosques</li>
+                            <li>Nearby tourist attractions and spiritual sites</li>
+                            <li>Transportation options and estimated costs</li>
+                            <li>Accommodation options from budget to luxury</li>
+                            <li>Detailed location information and pilgrimage routes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Ask about any sacred place...">
+                <button id="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            
+            <div class="suggestion-chips">
+                <button class="chip">History of Somnath Temple</button>
+                <button class="chip">How to reach Golden Temple</button>
+                <button class="chip">Accommodations near Varanasi</button>
+                <button class="chip">Tourist spots near Vatican City</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
